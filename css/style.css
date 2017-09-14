@@ -1,0 +1,23 @@
+.menu__wrapper {
+  width: 300px;
+  /*margin-top: 50px;*/
+  margin: 50px auto;
+}
+.menu {
+  list-style-type: none;
+  border: 1px solid #525252;
+  padding: 10px;
+}
+.menu li {
+  padding: 0 5px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: .2s;
+  background: #fff;
+}
+
+.menu li:hover  {
+  color: #54e487;
+}
